@@ -1,0 +1,68 @@
+@media screen and (min-width: 426px) {
+    body{
+        background-color: rgb(113, 0, 0);
+    }
+    
+    }
+    .galeria{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-top: 3%;
+        padding: 3%;
+        text-align: center;
+    }
+
+    .linha{
+        display:flex;
+        justify-content: center;
+        margin-bottom: 7%;
+        gap: 3%; 
+    }
+
+    .linha img{
+        width: 20%;
+        margin: 0.5%;
+        height: auto;
+    }
+
+    .titulogaleria{
+        font-family:'Dancing Script', cursive;
+        color: #ffffff;
+        font-size: 350%;
+    }
+
+    .container{
+        display:flex;
+        align-items: stretch;
+    }
+
+    .barra{
+        width:5%;
+        background-color: #ffffff;
+    }
+
+    .horizontal{
+        background-color: rgb(176, 12, 12);
+        height: 10px;
+        margin: 20px;
+        width: 100%;
+    }
+
+    .carrosselgaleria {
+        clear: both; /* Impede o carrossel de ser afetado por outros elementos flutuantes */
+        width: 100%;
+        margin-top: 30px; /* Adiciona um espaçamento */
+    }
+    
+    .carousel-inner {
+        width: 100%; /* Garante que o carrossel ocupe toda a largura */
+    }
+    
+    .carousel-item img {
+        width: 100%; /* Imagens dentro do carrossel ocupando toda a largura */
+        height: auto;
+    }
+    
